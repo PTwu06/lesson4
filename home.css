@@ -1,0 +1,41 @@
+body {background-color: NavajoWhite;
+      
+}
+h1   {
+      color: coral; 
+      font-family:Microsoft JhengHei; 
+      font-size:250%; 
+      text-align: center;
+      margin-top: 10px;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#canvas {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        width: 280px;
+        height: 280px;
+        background-color: white;
+        box-shadow: 10px 10px 5px lightblue;
+        border: 2px solid white;
+        border-radius: 8px;
+}
+iframe {
+    display: block;
+    margin-left: 30px;
+    margin-top: 90px;
+    width: 250px;
+    height: 150px;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+div{
+    float: left;
+    margin-top: 50px;
+    margin-left: 133px;
+    font-family:Times New Roman; 
+    font-weight: 900;
+    font-size:150%; 
+    
+}
