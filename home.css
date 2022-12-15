@@ -1,5 +1,4 @@
 body {background-color: NavajoWhite;
-      
 }
 h1   {
       color: coral; 
@@ -10,10 +9,11 @@ h1   {
       text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 #canvas {
+        cursor:crosshair;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 50px;
+        margin-top: 100px;
         width: 280px;
         height: 280px;
         background-color: white;
@@ -23,19 +23,57 @@ h1   {
 }
 iframe {
     display: block;
+    position: absolute;
     margin-left: 30px;
-    margin-top: 90px;
+    margin-top: 70px;
     width: 250px;
     height: 150px;
     border: 5px solid black;
     border-radius: 5px;
 }
-div{
-    float: left;
-    margin-top: 50px;
+p{
+    position: absolute;
+    margin-top: 35px;
     margin-left: 133px;
     font-family:Times New Roman; 
     font-weight: 900;
     font-size:150%; 
     
 }
+
+
+
+#buttons {
+    position: absolute;
+    top: 150px;
+    left: 630px;
+    cursor: pointer;
+  }
+  #reset {
+    margin-top: 10px;
+    margin-left: 5px;
+    float: left;
+  }
+  .color {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    border: 1px solid #000;
+    border-radius: 5px;
+    text-align: center;
+  }
+  #Tomato {
+    background-color: Tomato;
+  }
+  #DodgerBlue {
+    background-color: DodgerBlue;
+  }
+  #ediumAquaMarine {
+    background-color: MediumAquaMarine;
+  }
+  #MediumPurple {
+    background-color: MediumPurple;
+  }
