@@ -2,7 +2,7 @@ const CANVAS_SIZE = 280;
 const CANVAS_SCALE = 0.1;
 const INFERENCE_SIZE = 28;
 
-const canvas = document.getElementById("canvas");
+const canvas = document.getElementById("canvas"); 
 const ctx = canvas.getContext("2d");
 const rect = canvas.getBoundingClientRect();
 
@@ -94,6 +94,8 @@ function touchEnd(e) {
 
 // jQuery document ready
 loadingModelPromise.then(() => {
+    
+ 
     // code here
     canvas.addEventListener("mousedown", touchStart);
     canvas.addEventListener("mousemove", touchMove);
