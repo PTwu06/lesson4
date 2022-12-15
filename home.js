@@ -94,8 +94,6 @@ function touchEnd(e) {
 
 // jQuery document ready
 loadingModelPromise.then(() => {
-    
- 
     // code here
     canvas.addEventListener("mousedown", touchStart);
     canvas.addEventListener("mousemove", touchMove);
