@@ -25,7 +25,7 @@ iframe {
     display: block;
     position: absolute;
     margin-left: 30px;
-    margin-top: 70px;
+    margin-top: 20px;
     width: 250px;
     height: 150px;
     border: 5px solid black;
@@ -33,30 +33,39 @@ iframe {
 }
 p{
     position: absolute;
-    margin-top: 35px;
-    margin-left: 133px;
+    top: 480px;
+    left: 138px;
     font-family:Times New Roman; 
     font-weight: 900;
     font-size:150%; 
     
 }
-
+span{
+    position: absolute;
+    margin-left: 1080px;
+    margin-top: 10px;
+    font-family:Microsoft JhengHei; 
+    font-weight: 900;
+    font-size:150%; 
+    border: 2px solid black;
+}
 
 
 #buttons {
     position: absolute;
-    top: 150px;
-    left: 630px;
+    top: 90px;
     cursor: pointer;
   }
   #reset {
     margin-top: 10px;
     margin-left: 5px;
+    width: 80px;
+    height: 30px;
     float: left;
   }
   .color {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     float: left;
     margin-top: 10px;
     margin-left: 5px;
@@ -71,7 +80,7 @@ p{
   #DodgerBlue {
     background-color: DodgerBlue;
   }
-  #ediumAquaMarine {
+  #MediumAquaMarine {
     background-color: MediumAquaMarine;
   }
   #MediumPurple {

@@ -105,7 +105,7 @@ document.getElementById('reset').addEventListener('click', function() {
   }, false);
 
 //color change
-  var colors = ['Tomato', 'DodgerBlue', 'ediumAquaMarine', 'MediumPurple']
+  var colors = ['Tomato', 'DodgerBlue', 'MediumAquaMarine', 'MediumPurple']
   function listener(i) {
     document.getElementById(colors[i]).addEventListener('click', function() {
       ctx.strokeStyle = colors[i];
