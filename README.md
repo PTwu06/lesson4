@@ -8,7 +8,8 @@
 >## 網頁
 >>__使網頁於本地運行__
 >>* 於終端機輸入 `npx serve`
->>>:warning: :若於運行 `html` 時出現如下錯誤，以致 __看不見繪圖軌跡__ ，請於 VS code 安裝 `Live server` 插件， __以Live server執行html__。
+>>>:warning: :若於運行 `html` 時出現如下錯誤，以致 __看不見繪圖軌跡__ ，  
+請於 VS code 安裝 `Live server` 插件， __以Live server執行html__。
 ![image](https://github.com/PTwu06/lesson4/blob/master/html_warning.png)
 >## Mnist模型訓練與安裝
 >* 請參照 `model_and_train` 資料夾中的 `README.md` 操作。
