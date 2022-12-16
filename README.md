@@ -5,11 +5,11 @@
   * 畫筆顏色更換、畫布Reset
   * BGM list循環撥放(共四首)
 ---
->## 網頁
+>## 網頁  <sub>(homepae 資料夾)</sub>
 >>__使網頁於本地運行__
 >>* 於終端機輸入 `npx serve`
 >>>:warning: :若於運行 `html` 時出現如下錯誤，以致 __看不見繪圖軌跡__ ，請於 VS code   
 安裝 `Live server` 插件， __以Live server運行html__。
 ![image](https://github.com/PTwu06/lesson4/blob/master/html_warning.png)
->## Mnist 模型訓練與安裝
+>## Mnist 模型訓練與安裝  <sub>(model_and_train 資料夾)</sub>
 >* 請參照 `model_and_train` 資料夾中的 `README.md` 操作。
