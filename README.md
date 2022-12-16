@@ -2,7 +2,7 @@
 ![image](https://github.com/PTwu06/lesson4/blob/master/homepage%E6%88%AA%E5%9C%96small.png)
 * __此專案中，透過訓練一個Mnist數字分類模型並將其轉換成onnx格式，即可自行於網頁畫布繪畫，並於console中查看數字辨識的過程。__
 * __功能提供:__
-  * 畫筆顏色更換
+  * 畫筆顏色更換、畫布Reset
   * BGM list循環撥放(共四首)
 ---
 >## 網頁
